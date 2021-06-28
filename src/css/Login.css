@@ -1,0 +1,35 @@
+#backg{
+  background-image: url("../res/regis.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+}
+#button600{
+  visibility: hidden;
+}
+.title{
+  text-align: center;
+  margin: 10px;
+}
+.removecol{
+  align-self: center;
+  padding-top: 80px
+}
+#aa{
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width:768px){
+  #backg{
+    background-image: url("");
+    background-color: rgb(28, 187, 180);
+  }
+  .removecol{
+    display: none;
+  }
+  #button600{
+    visibility: visible;
+    margin-top: 20px
+  }
+}
